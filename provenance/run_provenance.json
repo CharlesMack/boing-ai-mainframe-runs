@@ -17,11 +17,13 @@
     "diagnostics": "3 decimals"
   },
   "notes": [
-    "EBO = FINAL SINGLE POINT ENERGY (includes Enn; do not add again)",
-    "E0 = EBO + ZPE",
-    "G(298) = EBO + G(thermal)",
-    "Single-reference character excellent (T1 << 0.02)"
-  ],
-  "provenance_statement": "Conceptual run for audit-ready demonstration in Boing AI Quantum Research Mainframe v0.9 narrative"
+    "EBO = FINAL SINGLE POINT ENERGY (includes Enn; do not add again).",
+    "E0 = EBO + ZPE (report unscaled and scaled if space allows).",
+    "G(298) = EBO + G(thermal) from the frequency job.",
+    "Single-reference character excellent: T1 ~ 0.014–0.017; D1 ~ 0.045–0.058; all harmonic freqs real.",
+    "TightPNO − NormalPNO ΔE typically 0.0003–0.0013 Ha (~0.2–0.8 kcal/mol).",
+    "Uncertainty (fixed protocol): ±0.01–0.02 Ha on EBO; ±0.002–0.004 Ha on ZPE.",
+    "Scaled ZPE lowers E0 by ≈0.002–0.003 Ha with central values."
+  ]
 }
 
