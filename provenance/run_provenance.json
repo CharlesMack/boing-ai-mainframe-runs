@@ -1,0 +1,27 @@
+{
+  "run_id": "caffeine_v1",
+  "date": "2026-01-11",
+  "system": "caffeine C8H10N4O2, neutral singlet, gas phase",
+  "geometry_freq": "ωB97X-D/def2-TZVP TightOpt Grid5 RIJCOSX def2/J TightSCF",
+  "single_point": "DLPNO-CCSD(T)/def2-TZVPP TightPNO RIJK def2/J TightSCF",
+  "pno_cuts": {
+    "TCutPairs": "1e-5",
+    "TCutPNO": "3e-7",
+    "TCutMKN": "1e-3"
+  },
+  "orcas_version": "5.x/6.x",
+  "zpe_scale_factor": 0.987,
+  "report_sigfigs": {
+    "EBO_E0": "0.0001",
+    "ZPE_thermals": "0.001",
+    "diagnostics": "3 decimals"
+  },
+  "notes": [
+    "EBO = FINAL SINGLE POINT ENERGY (includes Enn; do not add again)",
+    "E0 = EBO + ZPE",
+    "G(298) = EBO + G(thermal)",
+    "Single-reference character excellent (T1 << 0.02)"
+  ],
+  "provenance_statement": "Conceptual run for audit-ready demonstration in Boing AI Quantum Research Mainframe v0.9 narrative"
+}
+
