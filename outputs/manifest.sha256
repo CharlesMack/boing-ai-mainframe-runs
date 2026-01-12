@@ -1,0 +1,3 @@
+# After populating files
+find . -type f -not -path "./.git/*" -exec sha256sum {} \; > manifest.sha256
+
