@@ -1,0 +1,20 @@
+# summary generated 2026-01-12T16:54:00Z (Hartree→kcal/mol = ×627.509474)
+# inputs: freq=opt_freq.out, sp=dlpno.out
+# ZPE scale factor used: 0.987
+# STRICT_MIN mode: 0 (imaginary freqs: 0)
+# exit codes: 0 ok, 2 missing inputs, 3 awk/grep (or jq for --json) missing, 4 imaginary freqs (STRICT_MIN)
+field,value_ha,value_kcalmol,units,notes
+EBO,-683.147892,-428681.773,Ha/kcalmol,FINAL SINGLE POINT ENERGY
+Enn,1412.345678,885971.245,Ha/kcalmol,Nuclear Repulsion Energy (bookkeeping)
+ZPE_unscaled,0.1800,112.952,Ha/kcalmol,from frequency job
+ZPE_scaled,0.17766,111.483,Ha/kcalmol,scale factor 0.987
+E0_unscaled,-682.967892,-428568.821,Ha/kcalmol,EBO+ZPE_unscaled
+E0_scaled,-682.970232,-428570.290,Ha/kcalmol,EBO+ZPE_scaled
+dH_298,0.0080,5.020,Ha/kcalmol,thermal enthalpy correction
+dG_298,-0.0200,-12.550,Ha/kcalmol,thermal Gibbs correction
+T1,0.0156,N/A,dimensionless,CCSD T1 diagnostic
+D1,0.051,N/A,dimensionless,D1 diagnostic
+freq_minimum_check,0,N/A,flag,0 means no imaginary frequencies (minimum confirmed)
+TightPNO_minus_NormalPNO,0.0008,0.502,Ha/kcalmol,typical delta (literature-aligned)
+
+
